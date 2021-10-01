@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: verdana;
+  background-color: #cccccc;
+  background: url(./imagenes/rick-sanchez-2.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+#principal {
+  width: 1020px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+a {
+  font-size: 40px;
+  color: #f8f4f4;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(15, 177, 101, 0.02);
+  padding: 30px;
+}
+h1 {
+  font-size: 80px;
+  color: #d3f36a;
+  width: 30px;
+}
+ul {
+  width: 30px;
+  display: flex;
+}

@@ -1,0 +1,93 @@
+.formulario form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 3px solid #000000;
+  border-radius: 1em;
+  background-color: #c7ff33;
+}
+
+.formulario {
+  width: 400px;
+  padding: 30px;
+  margin-left: 900px;
+  margin-top: 100px;
+  border-radius: 4px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+ul {
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+  align-items: flex-start;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-size: 24px;
+}
+
+input,
+textarea {
+  font: em sans-serif;
+  width: 300px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 1em;
+  border: 1px solid #000000;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+  font-size: 30px;
+}
+
+textarea {
+  height: 5em;
+}
+
+.button {
+  padding-left: 40px;
+}
+
+button {
+  margin-left: 0.5em;
+  border-radius: 1em;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: verdana;
+  background-color: #cccccc;
+  background: url(./imagenes/rick-y-morty-en-atardecer-3.webp) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+#principal {
+  width: 1020px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+a {
+  font-size: 40px;
+  color: #070707;
+  justify-content: flex-start;
+  text-decoration: none;
+}
