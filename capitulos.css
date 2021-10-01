@@ -47,15 +47,52 @@ a {
 }
 
 h1 {
+  font-family: Copperplate, Papyrus, fantasy;
   font-size: 80px;
-  color: #d3f36a;
+  color: #8efa01;
   width: 30px;
 }
 
+h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: atma;
+  font-size: 30px;
+  color: #e6eee9;
+}
+
 ul {
+  font-family: Copperplate, Papyrus, fantasy;
   width: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.btt {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 300px;
+  margin-top: 200px;
+}
+
+.btt button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border: 8px solid #8efa01;
+  padding: 20px 100px;
+  border-radius: 100px;
+  background-color: #070707;
+  color: #f5f6f7;
+}
+
+.btt button:hover {
+  background-color: #45c041;
+  color: #070707;
 }
 /*# sourceMappingURL=capitulos.css.map */

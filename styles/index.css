@@ -15,6 +15,7 @@ input {
 }
 
 a {
+  font-family: Copperplate, Papyrus, fantasy;
   font-size: 40px;
   color: #f3f1f1;
   padding: 20px;
@@ -22,8 +23,9 @@ a {
 }
 
 h1 {
+  font-family: Copperplate, Papyrus, fantasy;
   font-size: 80px;
-  color: #d3f36a;
+  color: #8efa01;
 }
 
 h2 {
@@ -37,6 +39,7 @@ h3 {
 }
 
 h4 {
+  font-family: atma;
   font-size: 30px;
   color: #e6eee9;
 }

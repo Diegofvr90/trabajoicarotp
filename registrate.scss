@@ -86,8 +86,13 @@ body {
 }
 
 a {
+  font-family: Copperplate, Papyrus, fantasy;
   font-size: 40px;
   color: #070707;
   justify-content: flex-start;
   text-decoration: none;
+}
+
+.ordenar {
+  justify-content: flex-end;
 }

@@ -87,11 +87,18 @@ body {
 }
 
 a {
+  font-family: Copperplate, Papyrus, fantasy;
   font-size: 40px;
   color: #070707;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   text-decoration: none;
+}
+
+.ordenar {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=registrate.css.map */

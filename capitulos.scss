@@ -41,11 +41,39 @@ a {
   padding: 30px;
 }
 h1 {
+  font-family: Copperplate, Papyrus, fantasy;
   font-size: 80px;
-  color: #d3f36a;
+  color: #8efa01;
   width: 30px;
 }
+h4 {
+  display: flex;
+  font-family: atma;
+  font-size: 30px;
+  color: rgb(230, 238, 233);
+}
 ul {
+  font-family: Copperplate, Papyrus, fantasy;
   width: 30px;
   display: flex;
+}
+
+.btt {
+  align-items: end;
+  display: flex;
+  gap: 300px;
+  margin-top: 200px;
+  button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: 8px solid #8efa01;
+    padding: 20px 100px;
+    border-radius: 100px;
+    background-color: rgb(7, 7, 7);
+    color: #f5f6f7;
+  }
+  button:hover {
+    background-color: rgb(69, 192, 65);
+    color: rgb(7, 7, 7);
+  }
 }
